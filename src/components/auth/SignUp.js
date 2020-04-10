@@ -7,8 +7,8 @@ class SignUp extends Component {
     state = {
         email: '',
         password: '',
-        firstname: '',
-        lastname: ''
+        firstName: '',
+        lastName: ''
     }
     handleChange = e => [
         this.setState({
@@ -37,12 +37,12 @@ class SignUp extends Component {
                         <input type="password" id="password" onChange={this.handleChange} />
                     </div>
                     <div className="input-field">
-                        <label htmlFor="lastname">Last name</label>
-                        <input type="text" id="lastname" onChange={this.handleChange} />
+                        <label htmlFor="lastName">Last name</label>
+                        <input type="text" id="lastName" onChange={this.handleChange} />
                     </div>
                     <div className="input-field">
-                        <label htmlFor="firstname">First name</label>
-                        <input type="text" id="firstname" onChange={this.handleChange} />
+                        <label htmlFor="firstName">First name</label>
+                        <input type="text" id="firstName" onChange={this.handleChange} />
                     </div>
                     <div className="input-field">
                         <button className="btn pink lighten-1 z-depth-0">
