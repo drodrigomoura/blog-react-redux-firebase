@@ -1,6 +1,5 @@
 import React from 'react'
 
-
 const Notifications = (props) => {
     return (
         <div className="section">
