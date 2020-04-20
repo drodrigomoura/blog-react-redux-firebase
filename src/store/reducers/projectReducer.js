@@ -6,7 +6,7 @@ const initState = {
     ]
 }
 
-const projecReducer = (state = initState, action) => {
+const projectReducer = (state = initState, action) => {
     switch (action.type) {
         case 'CREATE_PROJECT':
             console.log('created project', action.project);
@@ -19,4 +19,4 @@ const projecReducer = (state = initState, action) => {
     }
 }
 
-export default projecReducer
+export default projectReducer
